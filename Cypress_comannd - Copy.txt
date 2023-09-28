@@ -1,0 +1,53 @@
+# DOC Cypress
+docs.cypress.com
+
+Enable to open the Cypress in the System , than run the below command in the Terminal
+
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+
+Spect pattern : you have to write the test specs for the Dashboard integeration 
+    specPattern: 'cypress/integration/examples/*.js' inside the Config.json file in the vs code 
+
+
+10. CY: is the global coomand in the cypress 
+	cy.visit("ww.website.com")
+
+11. Electron is also browser for rendering the data 
+	a. high performance browser 
+	b Cypress bundles internally the  
+	c In the java script we call each file as the spec file 
+	d How to run only the specific file or all the file 
+	e Through the command line it is the headless mode and it is the run without the browser 
+
+	Commands : on the UI 
+		.\node_modules\.bin\cypress open
+
+		 : On the terminal 
+		.\node_modules\.bin\cypress run
+		.\node_modules\.bin\cypress run --headed
+		.\node_modules\.bin\cypress run --browser chrome
+
+12. Folders 
+	1.Fixture : we use this folder to store the data 
+	2. Integration : we use this folder to store all of our test cases 
+	3 . Plugins : 
+	4.Support folder we write the customized method
+	
+	Cypress.config.js : This contain the all the configuration file 
+	 to config all the values inside the config file just goto the runner -> setting -> Project setting and you can see all the properties 
+
+13. 
+
+
+
+
+
+
+
+
+
+
+
+
